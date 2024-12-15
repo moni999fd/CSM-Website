@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jockey One', sans-serif;
+  }
+  
+  .top-nav {
+    height: 80px;
+    background-color: #3A0336;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff915e;
+  }
+  
+  .cart-icon img {
+    height: 40px;
+  }
+  
+  .hero {
+    position: relative;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3A0336;
+  }
+  
+  .hero-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: 50% 50%; 
+    display: block; 
+  }
+  
+  .hero-text-image {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    max-width: 40%;
+    height: auto;
+    opacity: 65%;
+  }
+  
+  .half-circles {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 80px; 
+    margin-bottom: 60px;
+  }
+  
+  .half-circle {
+    width: 313px;
+    height: 150px;
+    background: #0267C1;
+    border-radius: 0 0 156.5px 156.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0; 
+  }
+  
+  .book-tickets {
+    background-color: #0267C1; 
+  }
+  
+  .plan-visit {
+    background-color: #E9E572;
+  }
+  
+  .plan-visit span {
+    color: #3A0336 !important;
+  }
+  
+  
+  .open-hours {
+    background-color: #FF7F11; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .open-text {
+    font-size: 40px; 
+    font-weight: bold;
+    margin: 0; 
+  }
+  
+  .open-hours span {
+    font-size: 32px; 
+    margin: -5px 0; 
+  }
+  
+  .half-circle span {
+    font-size: 32px;
+    font-family: 'Jockey One', sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .half-circle a {
+    text-decoration: none !important; 
+    color: inherit;
+    display: inline-block; 
+  }
+  
+  .open-hours .open-text {
+    font-size: 40px; 
+    display: block; 
+    margin-bottom: 5px;
+  }
+  
+  .footer-bar {
+    height: 230px;
+    background-color: #3A0336; 
+    width: 100%;
+    position: relative; 
+  }
+
+  .price-hours-content {
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    line-height: 1.6; 
+    color: #3A0336; 
+    margin: 0 auto; 
+    .bold-text {
+        font-weight: bold;
+    } 
+  }
+  
+  
+  footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    background-color: #3A0336;
+    color: white;
+    height: 160px;
+    padding: 20px 40px; 
+    box-sizing: border-box;
+  }
+  
+  .footer-left {
+    flex: 1;
+    padding-left: 240px; 
+  }
+  
+  .footer-left h3,
+  .footer-left p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 5px 0;
+  }
+  
+  .footer-center {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    justify-content: left; 
+    text-align: left;
+  }
+  
+  .footer-center a {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0; 
+    font-weight: bold;
+  }
+  
+  .footer-center a:hover {
+    color: #ff915e; 
+  }
+  
+  .footer-right {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+  }
+  
+  .footer-right h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px; 
+  }
+  
+  .social-icons a img {
+    width: 30px; 
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.1); 
+  }
+  
+  
+  
+  
+  
