@@ -1,0 +1,24 @@
+:root {
+  --deep-purple: #3A0336;
+  --sunset-orange: #FF7F11;
+  --sky-blue: #0267C1;
+  --soft-yellow: #E9E572;
+  --hover-peach: #ff915e;
+  --white: #ffffff;
+
+
+  
+  --font-heading: 'Jockey One', sans-serif;
+  --font-body: 'Montserrat', Arial, sans-serif;
+
+  
+  --heading-lg: 40px;
+  --text-lg: 32px;
+  --text-md: 24px;
+  --text-sm: 18px;
+
+  
+  --padding-lg: 40px;
+  --padding-md: 20px;
+  --padding-sm: 10px;
+}

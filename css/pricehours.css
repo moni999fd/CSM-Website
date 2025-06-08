@@ -242,6 +242,57 @@ body {
   .social-icons a img:hover {
     transform: scale(1.1); 
   }
+
+  .social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .top-nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-left {
+    padding-left: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    padding: 10px 0;
+  }
+
+  .about-content {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .half-circles {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .half-circle {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
   
   
   
